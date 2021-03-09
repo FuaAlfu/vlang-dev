@@ -20,8 +20,9 @@ fn main() {
 	println('---')
 	//----------------------------------------------
 
-	//This example will not compile,
-   //since the field n isn't explicitly initialized:
+	/*This example will not compile,
+   since the field (a and b) isn't explicitly initialized:
+   */
   /* _ = Hoo{}
    println('_ = $_')
    println('---')
