@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.image {
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.image:hover {
+    transform: rotate(45deg);
+}
