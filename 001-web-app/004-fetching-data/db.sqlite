@@ -1,0 +1,22 @@
+drop table if exists Book;
+
+create table Book (
+	id integer primary key,
+	title text default "",
+	text text default ""
+);
+
+insert into Book (title, text) values (
+	"First post.",
+	"create a book.."
+);
+
+insert into Book (title, text) values (
+	"Second post.",
+	"choose a book.."
+);
+
+insert into Book (title, text) values (
+	"Third post.",
+	"there is no books left.."
+);
